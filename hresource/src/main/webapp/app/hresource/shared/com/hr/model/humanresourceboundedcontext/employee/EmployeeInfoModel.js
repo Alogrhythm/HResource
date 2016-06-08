@@ -1,0 +1,46 @@
+Ext.define('Hresource.hresource.shared.com.hr.model.humanresourceboundedcontext.employee.EmployeeInfoModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "empId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "depttypecode",
+          "reference": "DepartmentType",
+          "defaultValue": ""
+     }, {
+          "name": "designationtypecode",
+          "reference": "DesignationType",
+          "defaultValue": ""
+     }, {
+          "name": "reportingOfficer",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "pan",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "jobtypecode",
+          "reference": "JobType",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "CoreContacts",
+          "reference": "CoreContactsModel"
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

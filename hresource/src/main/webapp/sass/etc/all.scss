@@ -1,0 +1,41 @@
+@import 'custom_vars.scss';
+
+
+
+/**Font**/
+
+$font-size : 16px;
+$font-family : arial;
+
+/**Button**/
+
+$button-default-base-color:$base-color ;
+$button-small-border-radius :0;
+$button-medium-border-radius :0;
+$button-large-border-radius :0;
+$button-default-inner-border-width:0;
+$button-default-inner-border-color-focus:$base-color;
+$button-default-body-outline-color-focus :$base-color;
+
+
+/**Panel**/
+
+$panel-header-background-color :$base-color;
+$panel-frame-border-radius:0;
+$panel-header-color :$custom-header-text-color;
+$panel-header-border-color:$custom-header-border-color;
+
+/**Tool Bar*/
+$toolbar-background-color:#ffffff;
+$include-toolbar-default-ui : true;
+
+
+/**Form Fields*/
+
+$form-field-focus-border-color : $base-color;
+$form-label-font-color : $custom-font-label-color ;
+$form-label-font-weight :bold  ;
+$form-text-field-font-size:14px;
+
+
+
